@@ -1,0 +1,106 @@
+object frmCalendarPicker: TfrmCalendarPicker
+  Left = 0
+  Top = 0
+  Caption = 'frmCalendarPicker'
+  ClientHeight = 202
+  ClientWidth = 516
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlTop: TPanel
+    Left = 0
+    Top = 0
+    Width = 516
+    Height = 41
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = 8
+    ExplicitWidth = 185
+    object txtDayName: TEdit
+      Left = 48
+      Top = 7
+      Width = 121
+      Height = 27
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlue
+      Font.Height = -16
+      Font.Name = 'Cambria'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      Text = 'Day'
+    end
+    object txtDayNumber: TEdit
+      Left = 175
+      Top = 7
+      Width = 50
+      Height = 27
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlue
+      Font.Height = -16
+      Font.Name = 'Cambria'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+      Text = 'Digits'
+    end
+    object txtMonthName: TEdit
+      Left = 231
+      Top = 7
+      Width = 74
+      Height = 27
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlue
+      Font.Height = -16
+      Font.Name = 'Cambria'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      Text = 'Month'
+    end
+    object txtYear: TEdit
+      Left = 311
+      Top = 7
+      Width = 58
+      Height = 27
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlue
+      Font.Height = -16
+      Font.Name = 'Cambria'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+      Text = 'Year'
+    end
+    object btnOK: TBitBtn
+      Left = 375
+      Top = 9
+      Width = 42
+      Height = 25
+      Caption = 'OK !'
+      TabOrder = 4
+    end
+    object btnCancel: TBitBtn
+      Left = 431
+      Top = 9
+      Width = 74
+      Height = 25
+      Caption = 'Cancel'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clRed
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 5
+      OnClick = btnCancelClick
+    end
+  end
+end

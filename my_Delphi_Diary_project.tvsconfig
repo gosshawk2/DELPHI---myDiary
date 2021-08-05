@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="Gendoc.DocTitle" Type="System.String" Value="DELPHI_myDiary_1.1" Category="Generate Documentation" />
+</TgConfig>
